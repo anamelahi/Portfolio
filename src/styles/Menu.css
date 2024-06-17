@@ -1,0 +1,25 @@
+.menuLinks{
+    width: 350px;
+    margin-left: 990px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(0, 0, 0);
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(55, 55, 55);
+}
+.contact{
+    color: #FF725E;
+}

@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 0px 100px 0px;
+    /* height: 30px; */
+}
+h2{
+    font-size: 1rem;
+    font-family: Inter;
+    font-weight: 600;
+    margin-left: 40px;
+    color: black
+}
+
+.navmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

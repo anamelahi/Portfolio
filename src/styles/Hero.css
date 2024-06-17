@@ -1,0 +1,154 @@
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.profile{
+    height: 500px;
+    width: 700px;
+}
+
+.pp{
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+h1{
+    font-weight: 900;
+}
+
+p{
+    font-weight: 200;
+}
+img{
+    margin-right: 13px;
+    width: 20px;
+}
+
+.socials:hover{
+    cursor: pointer;
+}
+
+.portfolio-img{
+    height: 400px;
+    width: 600px;
+    /* margin-left: 100px; */
+    margin-top: 25px;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+
+.portfolio-content{
+    margin-left: 20px;
+    margin-top: 5px;
+    width: 500px;
+}
+
+.source-code{
+    height: 40px;
+    width: 150px;
+    background-color:#2C2E43 ;
+    color: aliceblue;
+    font-family: Inter;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+/* CONTACT SECTION */
+
+.contact-box{
+    background-color: #EDEDED;
+    height: 500px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.heads{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.getintouch{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
+/* .githead{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #ff715e37;
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF725E;
+}
+.heading-getintouch{
+    color: #FF4025;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 12px;
+} */
+.writeamsg{
+    font-size: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    margin-left:50px ;
+
+}
+
+input{
+    background-color: #ff715e25;
+    margin-left:300px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 60px;
+    border: none;
+}
+.email{
+    margin-left: 50px;
+}
+
+.msgbox{
+    width: 855px;
+    height: 150px;
+}
+
+.getintouchbtn{
+    background-color: #FF725E;
+    height: 52px;
+    width: 200px;
+    border: none;
+    color: #EDEDED;
+    font-size: 13px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-left:650px ;
+}
+
+::placeholder{
+    padding-left: 10px;
+    
+}
