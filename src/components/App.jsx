@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import SubHeading from "./SubHeading";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
+import About from "./About";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Hero />
       <SubHeading text="Portfolio" />
       <Portfolio />
+      <SubHeading text="About" />
+      <About />
       <Contact />
     </div>
   );
