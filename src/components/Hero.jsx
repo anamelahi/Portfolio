@@ -3,6 +3,7 @@ import "../styles/Hero.css"
 import  github  from "../github.png";
 import linkedin from "../linkedin.png"
 import picture from "../profile2.jpg";
+import TechStack from "./TechStack";
 
 
 function Hero() {
@@ -23,6 +24,7 @@ function Hero() {
         </p>
         <img onClick={handleClickGit} className="socials" src={github} alt="github" />
         <img onClick={handleClickLinkedIn} className="socials" src={linkedin} alt="linkedin" />
+        <TechStack />
      </div>
       <div className="profile">
         <img className="pp" src={picture} alt="" />
