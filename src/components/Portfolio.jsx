@@ -1,6 +1,7 @@
 import React , {useState} from "react";
 import chatapp from "../chatapp.png";
 import urlshortner from "../url-shortner.png";
+import carrental from "../Car-rental.png"
 
 function Portfolio() {
 
@@ -46,8 +47,22 @@ function Portfolio() {
           <img className="portfolio-img" src={urlshortner} alt="chatapp" />
         </div>
       </div>
+
+      <div style={{marginRight:"100px",marginLeft:"100px"}} className="project">
+        <div>
+        <img style={{width:"750px"}} className="portfolio-img" src={carrental} alt="car-rental" />
+        </div>
+        <div className="portfolio-content">
+          <h3>CAR RENTAL WEBSITE - FRONT END</h3>
+          <p>
+Welcome to CarLo, your trusted partner for easy and reliable car rentals. At CarLo, we offer a diverse range of vehicles to meet all your travel needs, from compact cars to luxurious SUVs. Our mission is to provide a seamless rental experience with transparent pricing, no hidden fees, and exceptional customer service. Enjoy a hassle-free booking process and drive with confidence knowing all our vehicles are regularly maintained for your safety. Choose CarLo for your next journey and experience convenience and reliability like never before.
+          </p>
+          <button className="source-code"><a style={{color: isMouseOver? "white":"#FFF5E1"}} onMouseOut={handleMouseOut}
+        onMouseOver={handleMouseOver} className="source-code" href="https://github.com/anamelahi/Car-Rental">SOURCE CODE</a></button>
+        </div>
+      </div>
+     
     </div>
   );
 }
-
 export default Portfolio;
