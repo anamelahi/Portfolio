@@ -24,7 +24,7 @@ function Hero() {
         </p>
         <img onClick={handleClickGit} className="socials" src={github} alt="github" />
         <img onClick={handleClickLinkedIn} className="socials" src={linkedin} alt="linkedin" />
-        <TechStack />
+       <TechStack />
      </div>
       <div className="profile">
         <img className="pp" src={picture} alt="" />

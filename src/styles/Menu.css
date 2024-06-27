@@ -9,11 +9,16 @@ ul{
     justify-content: space-around;
     color: rgb(0, 0, 0);
     list-style: none;
+    padding-left: 0px;
 }
 a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 
+}
+
+li{
+    margin-right: 15px;
 }
 
 a:hover{

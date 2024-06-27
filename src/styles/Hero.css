@@ -86,26 +86,6 @@ img{
     margin:auto;
 }
 
-/* .githead{
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    background-color: #ff715e37;
-    width: 150px;
-    height: 40px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-radius: 50px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #FF725E;
-}
-.heading-getintouch{
-    color: #FF4025;
-    font-size: 13px;
-    margin: auto;
-    margin-top: 12px;
-} */
 .writeamsg{
     font-size: 40px;
     margin-left: 0px;
@@ -152,6 +132,8 @@ input{
     padding-left: 10px;
     
 }
+
+/* RESUME BUTTON SECTION */
 
 
 /* ABOUT SECTION */
